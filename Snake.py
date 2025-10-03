@@ -20,7 +20,7 @@ wn.tracer(0) # turns off the screen updates
 head = turtle.Turtle()
 head.speed(0)
 head.shape("square")
-head.color("black")
+head.color("darkgreen")
 head.penup()  #so that it doesnot draw anything
 head.goto(0,0)  # starts with the center of screen 
 head.direction ="stop"
@@ -99,7 +99,7 @@ while True:
         head.goto(0,0)
         head.direction = 'stop'
 
-         #reset the delay
+        #reset the delay
         delay = 0.1
 
 
@@ -116,7 +116,7 @@ while True:
         new_segment = turtle.Turtle() 
         new_segment.speed(0) # animation speed
         new_segment.shape("square")
-        new_segment.color("gray")
+        new_segment.color("green")
         new_segment.penup()
         segments.append(new_segment)
 
